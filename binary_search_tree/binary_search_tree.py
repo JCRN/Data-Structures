@@ -104,8 +104,7 @@ class BinarySearchTree:
             if cur_node.left is True:
                 stack.push(cur_node.left)
             if cur_node.right is True:
-                stack.push(cur_node.right)
-            
+                stack.push(cur_node.right)            
         
 
     # STRETCH Goals -------------------------
